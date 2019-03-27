@@ -220,7 +220,7 @@ function createReport(report, docNumber) {
     //Add the image located in the script folder
     tableRow = table.addRow();
     var imageCell = tableRow.addCell("","",2);
-    imageCell.addImage("file:script/logo.png", "4cm", "1.5cm");
+    imageCell.addImage("C:\Users\JiemOffice\Documents\008_Logo update 2019\Foundation-logo-320-pixel.png", "4cm", "1.5cm");
 
     //Takes data of the selected DocOriginal transaction
     for (i = 0; i < journal.rowCount; i++) {
